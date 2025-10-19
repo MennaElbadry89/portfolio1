@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import "tailwindcss";
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+.cardo-regular {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cardo-bold {
+  font-family: "Cardo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cardo-regular-italic {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+
+body{
+    /* font-size: "Cardo" , serif; */
+}
+
+
+
+/* Option A — simple alternate typing / deleting */
+.animate-typing {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  /* border-right: .15em solid rgb(134, 134, 132); */
+  margin: 0;
+  letter-spacing: .05em;
+  /* type then delete (animation-direction: alternate) */
+  animation: typing-alt 4s steps(20, end) infinite alternate,
+             blink-caret .75s step-end infinite;
+}
+
+
+@keyframes typing-alt {
+  from { width: 0; }
+  to   { width: 20ch; } /* tune to your text length */
+}
+
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50%     { border-color: rgb(114, 113, 112); }
+}
+
+@keyframes movex {
+  from{
+      transform: translateX(0);
+  }
+  to {
+      transform: translateX(-100px);
+  }
+}
+
+.move {
+  animation: movex 5s ease-in-out alternate infinite;
+}
