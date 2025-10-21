@@ -24,21 +24,21 @@ export default function Contact(){
     show: { opacity: 1 , y: 0},
   }
    return(
-        <section className="sm:flex max-sm:flex-col gap-5  px-25 mx-25 pb-20 cardo-regular-italic max-sm:px-10  max-sm:mx-10 max-sm:text-sm">
+        <section className="sm:flex max-sm:flex-col gap-5  px-10 mx-10 pb-10 cardo-regular-italic max-sm:px-0  max-sm:mx-10 max-sm:text-sm">
             <div className="flex flex-col gap-5 py-5 cursor-pointer max-sm:w-full w-1/2">
                <p className="text-4xl font-bold bg-gradient-to-r from-fuchsia-400 to-fuchsia-50 bg-clip-text text-transparent">Let‘s work together.</p>
                 <form className=" w-full flex flex-col items-center justify-center bg-gradient-to-b  from-fuchsia-900 to-fuchsia-400 p-10 rounded-2xl text-white">
-                    <p className="text-xl my-2">I’d be happy to discuss your project and explore how we can work together.</p>
+                    <p className="max-md:text-sm  text-xl my-2">I’d be happy to discuss your project and explore how we can work together.</p>
                     <div className="flex gap-5 w-full">
-                        <input type="text" placeholder="First Name" className="w-full placeholder:text-gray-200 placeholder:text-lg border border-fuchsia-400 my-2 rounded-lg p-2 bg-gradient-to-b  from-fuchsia-900 to-fuchsia-400"/>
-                        <input type="text" placeholder="Last Name" className="w-full placeholder:text-gray-200 placeholder:text-lg border border-fuchsia-400 my-2 rounded-lg p-2 bg-gradient-to-b  from-fuchsia-900 to-fuchsia-400"/>
+                        <input type="text" placeholder="First Name" className="w-full placeholder:text-gray-200 placeholder:text-lg border border-fuchsia-400 my-2 rounded-lg p-2 bg-gradient-to-b  from-fuchsia-900 to-fuchsia-400  hover:shadow-lg hover:shadow-fuchsia-100"/>
+                        <input type="text" placeholder="Last Name" className="w-full placeholder:text-gray-200 placeholder:text-lg border border-fuchsia-400 my-2 rounded-lg p-2 bg-gradient-to-b  from-fuchsia-900 to-fuchsia-400  hover:shadow-lg hover:shadow-fuchsia-100"/>
                         </div>
                     <div className="flex gap-5 w-full">
-                        <input type="text" placeholder="E-mail" className="w-full placeholder:text-gray-200 placeholder:text-lg border border-fuchsia-400 my-2 rounded-lg p-2 bg-gradient-to-b  from-fuchsia-900 to-fuchsia-400"/>
-                        <input type="text" placeholder="Phone" className="w-full placeholder:text-gray-200 placeholder:text-lg border border-fuchsia-400 my-2 rounded-lg p-2 bg-gradient-to-b  from-fuchsia-900 to-fuchsia-400"/>
+                        <input type="text" placeholder="E-mail" className="w-full placeholder:text-gray-200 placeholder:text-lg border border-fuchsia-400 my-2 rounded-lg p-2 bg-gradient-to-b  from-fuchsia-900 to-fuchsia-400  hover:shadow-lg hover:shadow-fuchsia-100"/>
+                        <input type="text" placeholder="Phone" className="w-full placeholder:text-gray-200 placeholder:text-lg border border-fuchsia-400 my-2 rounded-lg p-2 bg-gradient-to-b  from-fuchsia-900 to-fuchsia-400  hover:shadow-lg hover:shadow-fuchsia-100"/>
                     </div>
-                    <textarea name="message" id="" placeholder="Message" className="w-full placeholder:text-gray-200 placeholder:text-lg border border-fuchsia-400 m-4 rounded-lg p-2 bg-gradient-to-b  from-fuchsia-900 to-fuchsia-400"></textarea>
-                    <button className="bg-gradient-to-r from-fuchsia-900 to-fuchsia-400 p-2 rounded text-gray-200 text-xl cursor-pointer">Send message</button>
+                    <textarea name="message" id="" placeholder="Message" className="w-full placeholder:text-gray-200 placeholder:text-lg border border-fuchsia-400 m-4 rounded-lg p-2 bg-gradient-to-b  from-fuchsia-900 to-fuchsia-400  hover:shadow-lg hover:shadow-fuchsia-100"></textarea>
+                    <button className="bg-gradient-to-r from-fuchsia-900 to-fuchsia-400 p-2 rounded text-gray-200 text-xl hover:shadow-lg hover:shadow-fuchsia-100 cursor-pointer">Send message</button>
                 </form>
                
             </div>
@@ -50,26 +50,26 @@ export default function Contact(){
                  initial="hidden"
                  animate="show">
                     
-                     <motion.div className='location p-5  rounded-lg border border-fuchsia-400 flex gap-2 bg-gradient-to-b  from-fuchsia-900 to-fuchsia-400' variants={item}>
+                     <motion.div className='location p-5   rounded-lg border border-fuchsia-400 flex gap-2 bg-gradient-to-b  from-fuchsia-900 to-fuchsia-400 hover:shadow-lg hover:shadow-fuchsia-100' variants={item}>
                          <MdMyLocation className="text-2xl text-fuchsia-200"/>
-                         <b className="pl-5 text-lg text-gray-200 hover:text-gray-100">Egypt - Sharkia - Zagazig</b>
+                         <b className="max-md:text-sm  pl-5 text-lg text-gray-200 hover:text-gray-100">Egypt - Sharkia - Zagazig</b>
                      </motion.div>
 
-                     <motion.div className='message p-5  rounded-lg border border-fuchsia-400 flex gap-2 bg-gradient-to-b  from-fuchsia-900 to-fuchsia-400 ' variants={item}>
+                     <motion.div className='message p-5  rounded-lg border border-fuchsia-400 flex gap-2 bg-gradient-to-b  from-fuchsia-900 to-fuchsia-400 hover:shadow-lg hover:shadow-fuchsia-100 ' variants={item}>
                          <FaRegMessage className="text-2xl text-fuchsia-200"/>
-                         <b className="pl-5 text-lg text-gray-200 hover:text-gray-100">mennaelbadry21@gmail.com</b>
+                         <b className="max-md:text-sm  pl-5 text-lg text-gray-200 hover:text-gray-100">mennaelbadry21@gmail.com</b>
                      </motion.div>
 
-                        <motion.div className='phone p-5 rounded-lg border border-fuchsia-400 flex gap-2 bg-gradient-to-b  from-fuchsia-900 to-fuchsia-400 ' variants={item}>
+                        <motion.div className='phone p-5 rounded-lg border border-fuchsia-400 flex gap-2 bg-gradient-to-b  from-fuchsia-900 to-fuchsia-400 hover:shadow-lg hover:shadow-fuchsia-100 ' variants={item}>
                          <FaPhoneAlt className="text-2xl text-fuchsia-200"/>
-                         <b className="pl-5 text-lg text-gray-200 hover:text-gray-100">0140011001100</b>
+                         <b className="max-md:text-sm  pl-5 text-lg text-gray-200 hover:text-gray-100">0140011001100</b>
                      </motion.div>
 
-                     <motion.div className='phone p-5 rounded-lg border border-fuchsia-400 flex items-center justify-center gap-2 bg-gradient-to-b  from-fuchsia-900 to-fuchsia-400 ' variants={item}>
-                        <FaLinkedin className="text-2xl transform transition duration-75 hover:scale-150 cursor-pointer text-fuchsia-700"/>
-                        <FaFacebook className="text-2xl transform transition duration-75 hover:scale-150 cursor-pointer text-fuchsia-700"/>
-                        <FaGithub className="text-2xl transform transition duration-75 hover:scale-150 cursor-pointer text-fuchsia-700"/>
-                        <FaInstagram className="text-2xl transform transition duration-75 hover:scale-150 cursor-pointer text-fuchsia-700"/>             
+                     <motion.div className='phone p-5 rounded-lg border border-fuchsia-400 flex items-center justify-center gap-2 bg-gradient-to-b  from-fuchsia-900 to-fuchsia-400 hover:shadow-lg hover:shadow-fuchsia-100' variants={item}>
+                        <FaLinkedin className="text-2xl transform transition duration-75 hover:scale-150 cursor-pointer text-fuchsia-200"/>
+                        <FaFacebook className="text-2xl transform transition duration-75 hover:scale-150 cursor-pointer text-fuchsia-200"/>
+                        <FaGithub className="text-2xl transform transition duration-75 hover:scale-150 cursor-pointer text-fuchsia-200"/>
+                        <FaInstagram className="text-2xl transform transition duration-75 hover:scale-150 cursor-pointer text-fuchsia-200"/>             
                     </motion.div>
                    </motion.div>
    {/* </div>  */}

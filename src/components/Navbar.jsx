@@ -17,7 +17,7 @@ export default function Navbar(){
             </div>
 
             {/* <ul className="flex items-center justify-between gap-5 max-sm:flex-col  "> */}
-            <ul className={` ${isOpen?  "hidden" : "flex" } max-sm:flex-col max-sm:absolute max-sm:top-14 max-sm:right-0 bg-fuchsia-900 w-full rounded-2xl p-2 text-2xl
+            <ul className={` ${isOpen?  "hidden" : "flex" } max-sm:flex-col max-sm:absolute max-sm:top-14 max-sm:right-0 bg-fuchsia-900 hover:shadow-lg hover:shadow-fuchsia-100 w-full rounded-2xl p-2 text-2xl
                  sm:flex sm:static sm:flex-row items-center justify-around gap-10 sm:w-1/2 `} >
 
                 <li><a  className="text-gray-300 hover:text-gray-50" href="/">Home</a></li>

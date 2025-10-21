@@ -38,9 +38,9 @@ export default function Skills(){
     ]
 
     return(
-        <section className=" py-20 mx-auto max-sm:mx-0 max-sm:px-10 max-sm:text-sm  text-left">
-            <b className="text-gray-300 hover:text-gray-50 text-2xl ml-50 cardo-regular-italic underline block max-sm:ml-0 max-sm:px-0">Skills :</b>
-         <div className="max-sm:mx-0 max-sm:px-0   mx-25 px-20">
+        <section className=" py-10 mx-auto max-sm:mx-0 max-sm:px-10 max-sm:text-sm  text-left">
+            <b className="text-gray-300 hover:text-gray-50 text-2xl ml-20 cardo-regular-italic underline block max-sm:ml-0 max-sm:px-0">Skills :</b>
+         <div className="max-sm:mx-0 max-sm:px-0  mx-10 px-10">
          <Swiper 
          modules={[Navigation, Autoplay]}
          spaceBetween={5}
@@ -50,14 +50,14 @@ export default function Skills(){
          loop 
         breakpoints={{
              640: { slidesPerView: 3 },
-             1024: { slidesPerView: 5 }
+             1024: { slidesPerView: 6 }
            }}
          >
             { data.map((item)=>(
                 <SwiperSlide key={item.id}>
                     <div className="flex flex-col items-center p-10 ">
                     <div className='flex items-center justify-center '>
-                        {item.name} <img src={item.imag} className="w-20 h-20" alt="" />                        
+                        {item.name} <img src={item.imag} className="max-md:w-12 max-md:12  w-18 h-18" alt="" />                        
                     </div>
                         <b className="font-bold text-2xl bg-gradient-to-r from-fuchsia-400 to-fuchsia-50 bg-clip-text text-transparent ">{item.name}</b>
                     </div>
