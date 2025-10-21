@@ -66,10 +66,10 @@ export default function Contact(){
                      </motion.div>
 
                      <motion.div className='phone p-5 rounded-lg border border-fuchsia-400 flex items-center justify-center gap-2 bg-gradient-to-b  from-fuchsia-900 to-fuchsia-400 hover:shadow-lg hover:shadow-fuchsia-100' variants={item}>
-                        <FaLinkedin className="text-2xl transform transition duration-75 hover:scale-150 cursor-pointer text-fuchsia-200"/>
-                        <FaFacebook className="text-2xl transform transition duration-75 hover:scale-150 cursor-pointer text-fuchsia-200"/>
-                        <FaGithub className="text-2xl transform transition duration-75 hover:scale-150 cursor-pointer text-fuchsia-200"/>
-                        <FaInstagram className="text-2xl transform transition duration-75 hover:scale-150 cursor-pointer text-fuchsia-200"/>             
+                       <a href="https://www.linkedin.com/in/menna-elbadry21/"> <FaLinkedin className="text-2xl transform transition duration-75 hover:scale-150 cursor-pointer text-fuchsia-200"/> </a> 
+                       <a href="https://www.facebook.com/mennaelbadry21"> <FaFacebook className="text-2xl transform transition duration-75 hover:scale-150 cursor-pointer text-fuchsia-200"/> </a>
+                       <a href="https://github.com/MennaElbadry89"> <FaGithub className="text-2xl transform transition duration-75 hover:scale-150 cursor-pointer text-fuchsia-200"/> </a>
+                       <a href=""> <FaInstagram className="text-2xl transform transition duration-75 hover:scale-150 cursor-pointer text-fuchsia-200"/> </a>             
                     </motion.div>
                    </motion.div>
    {/* </div>  */}
