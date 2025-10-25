@@ -7,11 +7,10 @@ export default function Home(){
 
 
     return(
-        <section className=" cardo-regular-italic  pt-10
-         max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:gap-0
-          sm:flex sm:flex-row sm:items-center sm:justify-center gap-50 max-sm:px-10  max-sm:text-sm">
-        <div className=" max-sm:w-full max-sm:mx-0 max-sm:px-0 px-20 mx-25 w-1/2">
-          <div className="flex flex-col ">
+        <section className=" cardo-regular-italic  pt-10 max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:gap-0
+          sm:flex sm:flex-row sm:items-center sm:justify-center sm:gap-0 gap-50 max-sm:px-  max-sm:text-sm">
+        <div className=" max-sm:w-full max-sm:mx-0 max-sm:px-0 px-20 mx-20 w-1/2">
+          <div className="flex flex-col items-center justify-center">
           {/* <h1  className="text-2xl font-bold bg-gradient-to-r from-fuchsia-600 to-fuchsia-50 bg-clip-text text-transparent text-start max-sm:items-center  max-sm:text-center">Hello,</h1>        */}
           <h2  className="text-2xl font-bold bg-gradient-to-r from-fuchsia-600 to-fuchsia-50 bg-clip-text text-transparent text-start max-sm:items-center  max-sm:text-center">Hi, I'm Menna</h2>    
           <b   className="text-2xl font-bold bg-gradient-to-r from-fuchsia-600 to-fuchsia-50 bg-clip-text text-transparent text-start max-sm:items-center  max-sm:text-center animate-typing ">Frontend developer</b> 

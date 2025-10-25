@@ -25,7 +25,7 @@ export default function Projects() {
                 data.map((item)=>(
                   <div key={item.id} className="flex flex-col items-center border border-fuchsia-400 hover:border-fuchsia-200 rounded p-4
                   transition-transform duration-200  hover:skew-y-2  hover:scale-105 hover:shadow-lg hover:shadow-fuchsia-100">
-                    <div className="w-48 h-24 rounded">
+                    <div className="max-md:w-full  w-48 h-24 rounded">
                         <img src={item.img} className="w-full h-full rounded" alt="" />
                     </div>
                     <a href={item.url} className="text-fuchsia-200 ">Link</a>

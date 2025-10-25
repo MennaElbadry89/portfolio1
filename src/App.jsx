@@ -4,7 +4,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
 import Projects from './components/Projects'
-import  Skills from './components/Skills'
+import Skills from './components/Skills'
 
 
 import Layout from './components/Layout'
@@ -19,7 +19,7 @@ function App() {
         {path : "/" , element : <Home/>},
         {path : "about" , element : <About/>},
         {path : "contact" , element : <Contact/>},
-        {path : "skills" , element : <Skills/>},
+        {path : "/skills" , element : <Skills/>},
         {path : "projects" , element : <Projects/>},
 
       ]
