@@ -15,8 +15,6 @@ export default function Navbar(){
             <div>
                <a href="/"> <h1 className="font-bold text-2xl bg-gradient-to-r from-fuchsia-600 to-fuchsia-50 bg-clip-text text-transparent hover:text-gray-200">Menna Ebadry</h1></a>
             </div>
-
-            {/* <ul className="flex items-center justify-between gap-5 max-sm:flex-col  "> */}
             <ul className={` ${isOpen?  "hidden" : "flex" } max-sm:flex-col  max-sm:absolute max-sm:top-14 max-sm:right-0 bg-fuchsia-900 hover:shadow-lg hover:shadow-fuchsia-100 w-full rounded-2xl p-2 text-2xl
                  sm:flex sm:static sm:flex-row sm:w-2/3  sm:gap-1 items-center justify-around gap-10 md:w-1/2 md-text-2xl `} >
 
@@ -30,10 +28,6 @@ export default function Navbar(){
                 <FaBars onClick={()=>setIsOpen(!isOpen)}/>                    
             </div>
             </div>
-            
-            
-
-
 
 
 
