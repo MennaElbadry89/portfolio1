@@ -19,7 +19,7 @@ function App() {
         {path : "/" , element : <Home/>},
         {path : "about" , element : <About/>},
         {path : "contact" , element : <Contact/>},
-        {path : "/skills" , element : <Skills/>},
+        {path : "skills" , element : <Skills/>},
         {path : "projects" , element : <Projects/>},
 
       ]

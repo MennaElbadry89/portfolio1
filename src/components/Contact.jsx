@@ -62,10 +62,10 @@ export default function Contact(){
 
                         <motion.div className='phone p-5 rounded-lg border border-fuchsia-400 flex gap-2 bg-gradient-to-b  from-fuchsia-900 to-fuchsia-400 hover:shadow-lg hover:shadow-fuchsia-100 ' variants={item}>
                          <FaPhoneAlt className="text-2xl text-fuchsia-200"/>
-                         <b className="max-md:text-sm  pl-5 text-lg text-gray-200 hover:text-gray-100">0140011001100</b>
+                         <b className="max-md:text-sm  pl-5 text-lg text-gray-200 hover:text-gray-100">+201060321259</b>
                      </motion.div>
 
-                     <motion.div className='phone p-5 rounded-lg border border-fuchsia-400 flex items-center justify-center gap-2 bg-gradient-to-b  from-fuchsia-900 to-fuchsia-400 hover:shadow-lg hover:shadow-fuchsia-100' variants={item}>
+                     <motion.div className='phone p-5 rounded-lg border border-fuchsia-400 flex items-center justify-center gap-5 bg-gradient-to-b  from-fuchsia-900 to-fuchsia-400 hover:shadow-lg hover:shadow-fuchsia-100' variants={item}>
                        <a href="https://www.linkedin.com/in/menna-elbadry21/"> <FaLinkedin className="text-2xl transform transition duration-75 hover:scale-150 cursor-pointer text-fuchsia-200"/> </a> 
                        <a href="https://www.facebook.com/mennaelbadry21"> <FaFacebook className="text-2xl transform transition duration-75 hover:scale-150 cursor-pointer text-fuchsia-200"/> </a>
                        <a href="https://github.com/MennaElbadry89"> <FaGithub className="text-2xl transform transition duration-75 hover:scale-150 cursor-pointer text-fuchsia-200"/> </a>
