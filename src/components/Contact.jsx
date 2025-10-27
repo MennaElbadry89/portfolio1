@@ -24,9 +24,9 @@ export default function Contact(){
     show: { opacity: 1 , y: 0},
   }
    return(
-        <section className="sm:flex max-sm:flex-col gap-5  px-10 mx-10 pb-10 cardo-regular-italic max-sm:px-0  max-sm:mx-10 max-sm:text-sm">
+        <section className="sm:flex max-sm:flex-col gap-5 px-10 mx-10 pb-10 cardo-regular-italic max-sm:px-0  max-sm:mx-10 max-sm:text-sm">
             <div className="flex flex-col gap-5 py-5 cursor-pointer max-sm:w-full w-1/2">
-               <p className="text-4xl font-bold bg-gradient-to-r from-fuchsia-400 to-fuchsia-50 bg-clip-text text-transparent">Let‘s work together.</p>
+               <p className="text-4xl max-md:text-2xl font-bold bg-gradient-to-r from-fuchsia-400 to-fuchsia-50 bg-clip-text text-transparent">Let‘s work together.</p>
                 <form className=" w-full flex flex-col items-center justify-center bg-gradient-to-b  from-fuchsia-900 to-fuchsia-400 p-10 rounded-2xl text-white">
                     <p className="max-md:text-sm  text-xl my-2">I’d be happy to discuss your project and explore how we can work together.</p>
                     <div className="flex gap-5 w-full">
