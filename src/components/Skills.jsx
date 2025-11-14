@@ -12,6 +12,9 @@ import bootstrap from '/images/Bootstrap.svg'
 import firebase from '/images/Firebase.png'
 import php from '/images/php.png'
 import mySQL from '/images/mysql.png'
+import mvc from '/images/mvc.png'
+import oop from '/images/oop.webp'
+
 
 import { Swiper , SwiperSlide } from 'swiper/react'
 import 'swiper/css'
@@ -35,15 +38,17 @@ export default function Skills(){
         {id: 11 , name: 'tailwind', imag: tailwind},
         {id: 12 , name: 'mySQL', imag: mySQL},
         {id: 13 , name: 'php', imag: php},
+        {id: 14 , name: 'mvc', imag: mvc},
+        {id: 15 , name: 'oop', imag: oop},
     ]
 
     return(
-        <section className=" py-10 mx-auto max-sm:mx-0 max-sm:px-10 max-sm:text-sm  text-left">
+        <section id="skills" className=" py-10 mx-auto max-sm:mx-0 max-sm:px-10 max-sm:text-sm  text-left">
             <b className=" text-4xl max-md:text-2xl ml-20 cardo-regular-italic bg-gradient-to-r from-fuchsia-400 to-fuchsia-50 bg-clip-text text-transparent block max-sm:ml-0 max-sm:px-0">Skills :</b>
          <div className="max-sm:mx-0 max-sm:px-0  mx-10 px-10">
          <Swiper 
          modules={[Navigation, Autoplay]}
-         spaceBetween={5}
+         spaceBetween={2}
          slidesPerView={2}
         //  navigation
          autoplay = {{delay: 200 , disableOnInteraction: false}}
@@ -56,12 +61,11 @@ export default function Skills(){
             { data.map((item)=>(
                 <SwiperSlide key={item.id}>
                     <div className="flex flex-col items-center p-5 ">
-                    <div className='flex items-center justify-center '>
-                        {item.name} <img src={item.imag} className="max-md:w-12 max-md:12  w-18 h-18" alt="" />                        
-                    </div>
+                        <div className='flex items-center justify-center max-md:w-12 max-md:12  w-18 h-18 '>
+                            <img src={item.imag} className="w-full h-full" alt="" />                        
+                        </div>
                         <b className="font-bold text-2xl max-md:text-xl bg-gradient-to-r from-fuchsia-400 to-fuchsia-50 bg-clip-text text-transparent ">{item.name}</b>
                     </div>
-
                 </SwiperSlide>
             ))}
          </Swiper>
