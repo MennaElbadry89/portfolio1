@@ -45,7 +45,7 @@ export default function Contact(){
 
        {/* <div className="w-1/2 max-md:w-full h-102 mt-5 max-md:mr-0 mr-20 p-0 flex flex-col justify-center items-center bg-gradient-to-t from-pink-400 to-pink-800 shadow-lg border border-pink-400 rounded-2xl"> */}
                                 
-                 <motion.div className='contac w-1/2 max-md:w-full h-102 mt-15 flex flex-col justify-center gap-5 bg-transparent' 
+                 <motion.div className='contac w-1/2 max-md:w-full max-md:mt-0 h-102 mt-15 flex flex-col justify-center gap-5 bg-transparent' 
                  variants={container}
                  initial="hidden"
                  animate="show">

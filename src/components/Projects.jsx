@@ -12,7 +12,9 @@ export default function Projects() {
     {id: 8 , img: '/images/portfolio.png' , url: 'https://portfolio-wine-theta-98.vercel.app/',  desc: "React.JS - TailwindCSS" },
     {id: 9 , img: '/images/gem1.png' ,      url: 'https://mennaelbadry89.github.io/gem/',        desc: "HTML - CSS - JS - TailwindCSS" },
     {id: 10 , img: '/images/babycare.png' , url: 'https://mennaelbadry89.github.io/babycare/',   desc: "HTML - CSS - JS - bootstrap5" },
+    {id: 10 , img: '/images/arch.png' ,     url: 'https://mennaelbadry89.github.io/Arch-Agency/',desc: "HTML - CSS - JS - TailwindCSS" },
 
+    
     ]
     return (
         <section id="project" className="@container flex flex-col gap-5 pb-10 px-20 cardo-regular-italic max-md:px-10 max-sm:text-sm">

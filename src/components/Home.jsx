@@ -1,5 +1,5 @@
 import React from "react";
-import menna from "/images/me.jpg"
+import menna from "/images/menna.png"
 import {  useNavigate } from "react-router-dom";
 export default function Home(){
     
