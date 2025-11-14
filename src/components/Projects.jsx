@@ -6,11 +6,12 @@ export default function Projects() {
     {id: 2 , img: '/images/pharmcy.png' ,   url: 'https://mennaelbadry89.github.io/e-pharmacy' , desc: "HTML - CSS - JS" },
     {id: 3 , img: '/images/food.png' ,      url: 'https://mennaelbadry89.github.io/foodstore/' , desc: "HTML - CSS - JS" },
     {id: 4 , img: '/images/uni.png' ,       url: 'https://mennaelbadry89.github.io/universty/',  desc: "HTML - CSS - JS - jQuery" },
-    {id: 5 , img: '/images/mem.png' ,       url: 'https://mennaelbadry89.github.io/meme/',       desc: "React.JS - bootstrap - json.db - firebase - validation - Api " },
+    {id: 5 , img: '/images/mem.png' ,       url: 'https://mennaelbadry89.github.io/meme/',       desc: "React.JS - bootstrap5 - json.db - firebase - validation - Api " },
     {id: 6 , img: '/images/edu1.png' ,      url: 'https://acad-ashen.vercel.app/',               desc: "React.JS - TailwindCSS - firebase - validation - Api " },
-    {id: 7 , img: '/images/book.png' ,      url: 'https://bookstore21.vercel.app/' ,             desc: " React.JS - TailwindCSS - firebase - validation - Api " },
-    {id: 8 , img: '/images/portfolio.png' , url: 'https://portfolio-wine-theta-98.vercel.app/',  desc: " React.JS - TailwindCSS" },
-    {id: 9 , img: '/images/gem1.png' ,      url: 'https://mennaelbadry89.github.io/gem/',        desc: " React.JS - TailwindCSS" },
+    {id: 7 , img: '/images/book.png' ,      url: 'https://bookstore21.vercel.app/' ,             desc: "React.JS - TailwindCSS - firebase - validation - Api " },
+    {id: 8 , img: '/images/portfolio.png' , url: 'https://portfolio-wine-theta-98.vercel.app/',  desc: "React.JS - TailwindCSS" },
+    {id: 9 , img: '/images/gem1.png' ,      url: 'https://mennaelbadry89.github.io/gem/',        desc: "HTML - CSS - JS - TailwindCSS" },
+    {id: 10 , img: '/images/babycare.png' , url: 'https://mennaelbadry89.github.io/babycare/',   desc: "HTML - CSS - JS - bootstrap5" },
 
     ]
     return (
