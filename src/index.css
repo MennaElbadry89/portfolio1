@@ -31,16 +31,12 @@ body{
 }
 
 
-
-/* Option A — simple alternate typing / deleting */
 .animate-typing {
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
-  /* border-right: .15em solid rgb(134, 134, 132); */
   margin: 0;
   letter-spacing: .05em;
-  /* type then delete (animation-direction: alternate) */
   animation: typing-alt 4s steps(20, end) infinite alternate,
              blink-caret .75s step-end infinite;
 }
@@ -48,7 +44,7 @@ body{
 
 @keyframes typing-alt {
   from { width: 0; }
-  to   { width: 20ch; } /* tune to your text length */
+  to   { width: 20ch; } 
 }
 
 
@@ -62,7 +58,7 @@ body{
       transform: translateX(0);
   }
   to {
-      transform: translateX(-50px);
+      transform: translateX(-20px);
   }
 }
 

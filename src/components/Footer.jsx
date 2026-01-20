@@ -7,11 +7,11 @@ export default function Footer(){
 
 
     return(
-        <section className="bg-fuchsia-950 py-3 flex items-center justify-center cardo-regular-italic">
+        <section className="cardo-regular-italic flex items-center justify-center bg-fuchsia-950 py-3">
 
-            <div className="max-md:text-sm flex gap-2 text-xl font-bold bg-gradient-to-r from-fuchsia-600 to-fuchsia-50 bg-clip-text text-transparent">© 2025 All Rights Reserved By 
-                <a className="flex items-center justify-center gap-3" href="https://github.com/MennaElbadry89/"> Menna Elbadry <FaGithub/></a>
-            </div>
+            <p className="flex gap-2 bg-gradient-to-r from-fuchsia-600 to-fuchsia-50 bg-clip-text text-sm font-bold text-transparent sm:text-xl"> © 2026 
+                <a className="flex items-center justify-center gap-1" href="https://github.com/MennaElbadry89/"> Menna Elbadry <FaGithub className="text-white"/></a> — Built with React
+            </p>
             
 
 

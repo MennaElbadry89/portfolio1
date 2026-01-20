@@ -1,13 +1,13 @@
 import {createBrowserRouter , RouterProvider} from 'react-router-dom'
 import './App.css'
-import Home from './components/Home'
-import About from './components/About'
-import Contact from './components/Contact'
-import Projects from './components/Projects'
-import Skills from './components/Skills'
+import Home from './pages/home/Home'
+import About from './pages/about/About'
+import Contact from './pages/Contacts/Contact'
+import Projects from './pages/projects/Projects'
+import Skills from './pages/skills/Skills'
 
 
-import Layout from './components/Layout'
+import Layout from './pages/layout/Layout'
 
 function App() {
 
