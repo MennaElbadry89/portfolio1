@@ -51,7 +51,7 @@ export default function Projects() {
         },
         {
         id: 6 ,  
-         title: "Courses platform Website",  
+         title: "Courses platform ",  
          img: '/images/eduu.png' ,      
          url: 'https://acad-ashen.vercel.app/',                 
          github: "https://github.com/mennaelbadry89/CSS",   
@@ -60,7 +60,7 @@ export default function Projects() {
         },
        {
         id: 7 ,  
-         title: "Online Book store Website",  
+         title: "Online Book store ",  
          img: '/images/boo.png' ,       
          url: 'https://bookstore89.vercel.app/' ,               
          github: "https://github.com/mennaelbadry89/CSS",   
@@ -70,7 +70,7 @@ export default function Projects() {
        {
         id: 8 ,  
          title: "portfolio Website",  
-         img: '/images/portfolio.png' , 
+         img: '/images/portfol.png' , 
          url: 'https://portfolio-wine-theta-98.vercel.app/',    
          github: "https://github.com/mennaelbadry89/CSS",   
          type: "React",   
@@ -114,10 +114,7 @@ export default function Projects() {
         },
     ]
    
-   const [selectedProject, setSelectedProject] = useState(null);
-
-
-    
+    const [selectedProject, setSelectedProject] = useState(null);  
     const [filterData , setFilterData] = useState(data)
     
     const handleFilter = (type) =>{

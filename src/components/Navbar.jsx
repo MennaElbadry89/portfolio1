@@ -13,7 +13,7 @@ export default function Navbar(){
         <section className="cardo-regular-italic m-0 bg-fuchsia-950 px-10 py-3 shadow-lg">
 
         <div className="flex items-center justify-around">
-            <div className="flex">
+            <div className="gap- flex items-center">
                <a href="/"> <h1 className="bg-gradient-to-r from-fuchsia-600 to-fuchsia-50 bg-clip-text text-2xl font-bold text-transparent hover:text-gray-200">Menna Ebadry</h1></a>
                <span className="ml-3 rounded-full bg-fuchsia-600/20 px-3 py-1 text-sm text-fuchsia-300">
                 React & Laravel

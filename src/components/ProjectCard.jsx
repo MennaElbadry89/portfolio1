@@ -8,7 +8,7 @@ export default function ProjectCard({ project }) {
     <div
       className="group flex flex-col gap-3 rounded-xl border border-fuchsia-400 p-4 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-fuchsia-200">
  
-       <div className="relative h-28 overflow-hidden rounded">
+       <div className="relative h-32 overflow-hidden rounded">
         <img src={project.img} alt={project.title}
           className="h-full w-full object-cover transition duration-300 group-hover:scale-110"/>
 
